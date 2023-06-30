@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 
 import { useNavigation, useRoute } from '@react-navigation/native'
 
-export default function Welcome() {
+export default function Home() {
 
   const route = useRoute();
   console.log(route.params.data)

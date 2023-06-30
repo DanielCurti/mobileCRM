@@ -1,12 +1,13 @@
 import React from "react";
 
+// android 227203302334-0chppkb282ddtco4lm6mgstbo7t3atvo.apps.googleusercontent.com
 import { View, Text, StyleSheet, TextInput, TouchableOpacity, Alert } from "react-native";
 
 import * as Animatable from 'react-native-animatable'
 
 import { useNavigation } from '@react-navigation/native'
 
-export default function Welcome() { 
+export default function Signin() { 
     var username = ''
     var password = ''
     const login = () => {

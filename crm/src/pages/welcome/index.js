@@ -24,7 +24,7 @@ export default function Welcome() {
                     Fortaleça CRM
                 </Text>
                 <Text style={styles.text}>
-                    Um CRM focado em Fortaleçer a sua empresa
+                    Um CRM focado em Fortalecer a sua empresa
                 </Text>
                 <TouchableOpacity style={styles.button} onPress={ () => navigation.navigate('signin')}>
                     <Text style={styles.buttonText}>
@@ -39,7 +39,7 @@ export default function Welcome() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: 'black',
     },
     containerLogo: {
         flex: 2,
@@ -62,11 +62,11 @@ const styles = StyleSheet.create({
         marginBottom : 12
     },
     text: {
-        color: '#a1a1a1'
+        color: '#222222'
     },
     button:{
         position : 'absolute',
-        backgroundColor : '#fff',
+        backgroundColor: 'black',
         borderRadius: 50,
         paddingVertical : 8,
         width : '60%',
